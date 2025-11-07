@@ -3,10 +3,15 @@
   <p align="center">A simple, zero-dependencies library to parse environment variables into structs.</p>
 </p>
 
+## Fork notice
+
+This is a temporary fork of the [caarlos0/env](https://github.com/caarlos0/env) repo for local needs and it won't be supported.
+Use the original repo instead.
+
 ###### Installation
 
 ```bash
-go get github.com/caarlos0/env/v11
+go get github.com/kukymbr/env/v11
 ```
 
 ###### Getting started
@@ -24,7 +29,7 @@ err := env.Parse(&cfg)
 cfg, err := env.ParseAs[config]()
 ```
 
-You can see the full documentation and list of examples at [pkg.go.dev](https://pkg.go.dev/github.com/caarlos0/env/v11).
+You can see the full documentation and list of examples at [pkg.go.dev](https://pkg.go.dev/github.com/kukymbr/env/v11).
 
 ---
 
@@ -125,7 +130,7 @@ There are a few options available in the functions that end with `WithOptions`:
 
 ### Documentation and examples
 
-Examples are live in [pkg.go.dev](https://pkg.go.dev/github.com/caarlos0/env/v11),
+Examples are live in [pkg.go.dev](https://pkg.go.dev/github.com/kukymbr/env/v11),
 and also in the [example test file](./example_test.go).
 
 ## Current state
@@ -141,9 +146,9 @@ Eventual bug fixes will keep being merged.
 
 [![Release](https://img.shields.io/github/release/caarlos0/env.svg?style=for-the-badge)](https://github.com/goreleaser/goreleaser/releases/latest)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=for-the-badge)](/LICENSE.md)
-[![Build status](https://img.shields.io/github/actions/workflow/status/caarlos0/env/build.yml?style=for-the-badge&branch=main)](https://github.com/caarlos0/env/actions?workflow=build)
+[![Build status](https://img.shields.io/github/actions/workflow/status/caarlos0/env/build.yml?style=for-the-badge&branch=main)](https://github.com/kukymbr/env/actions?workflow=build)
 [![Codecov branch](https://img.shields.io/codecov/c/github/caarlos0/env/main.svg?style=for-the-badge)](https://codecov.io/gh/caarlos0/env)
-[![Go docs](https://img.shields.io/badge/godoc-reference-blue.svg?style=for-the-badge)](http://godoc.org/github.com/caarlos0/env/v11)
+[![Go docs](https://img.shields.io/badge/godoc-reference-blue.svg?style=for-the-badge)](http://godoc.org/github.com/kukymbr/env/v11)
 [![Powered By: GoReleaser](https://img.shields.io/badge/powered%20by-goreleaser-green.svg?style=for-the-badge)](https://github.com/goreleaser)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=for-the-badge)](https://conventionalcommits.org)
 
